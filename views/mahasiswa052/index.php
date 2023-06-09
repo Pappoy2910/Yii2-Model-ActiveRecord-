@@ -10,7 +10,7 @@ use yii\grid\GridView;
 /** @var app\models\Mahasiswa052Search $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Mahasiswa052s';
+$this->title = 'Mahasiswa/Indah Triyanti Ramadhani';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="mahasiswa052-index">
@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Mahasiswa052', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Buat Data Baru', ['create'], ['classz' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
